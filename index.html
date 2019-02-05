@@ -7,10 +7,11 @@
     <title>NOVIZ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
 
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
@@ -18,36 +19,102 @@
 <link href="/styles.css" rel="stylesheet"></head>
 
 <body>
-    <div class="cover-container d-flex h-100 p-5 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h3 class="masthead-brand d-none d-md-block">
-                    <img src="/4dcee8a4a3fa5bf129988469ecec394f.svg" alt="NOVIZ" style="max-width: 100%; width: 82px;" />
-                </h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="/">Home</a>
-                    <a class="nav-link" href="#">Coming soon</a>
-                </nav>
-            </div>
-        </header>
-        <img src="/4dcee8a4a3fa5bf129988469ecec394f.svg" alt="NOVIZ" style="max-width: 100%; margin-bottom: 100px;" />
 
-        <main role="main" class="inner cover">
-            <h1 class="cover-heading">No Joke.</h1>
-            <p class="lead">This will be our new website. Coming soon.</p>
-            <p class="lead">
-                <a href="https://github.com/noviz-org" class="btn btn-lg btn-secondary">
-                    Github <i class="fab fa-github"></i>
+    <div class="cover-container d-flex mx-auto flex-column">
+        <header class="d-flex mb-auto">
+            <nav class=" nav d-flex justify-content-around">
+                <a class="nav-link active orbitron" href="https://noviz.ch">
+                    NOVIZ
                 </a>
-            </p>
+                <a class="nav-link" href="#sr">Speaking Radar</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                </a>
+            </nav>
+        </header>
+        <main role="main" class="cover">
+            <div class="section">
+                <img class="big-logo" src="/d9c819b75f9fccda47151f0bb0965ebf.png" style="width: 100%; margin-top: 10vh;" alt="NOVIZ" />
+                <h1 class="cover-heading">Something</h1>
+                <p class="lead">This will be our new website. Coming soon.</p>
+                <p class="lead">
+                    <a href="https://github.com/noviz-org" class="btn btn-lg btn-secondary">
+                        GitHub <i class="fab fa-github"></i>
+                    </a>
+                </p>
+            </div>
+            <div id="sr" class="section">
+                <h2 class="cover-heading text-center">Speaking Radar</h2>
+
+                <div class="text-center" style="margin-top: 3vh">
+                    <img class="w-50" src="/a3f88914a9572a907362e61a1e736f33.png" alt="Speaking Radar Icon">
+                </div>
+
+                <h5 style="margin-top: 5vh">What is the intention of this App?</h5>
+                <div class="text-left">
+                    <p>You point the phone in a direction and double tap to start.<br />
+                        The App then tells you all the relevant places in that specific direction.
+                    </p>
+                    <p>
+                        Many blind people lack a sense of oversight or wonder about their surroundings.
+                        This App can help to align your mental map with surroundings.
+                    </p>
+                    <p>
+                        The intention of this App is not to be used for navigation, but to provide useful and
+                        interesting information about your environment, while functioning intuitively like a body part.
+                    </p>
+                </div>
+
+                <h5 style="margin-top: 2vh">The App works as follows:</h5>
+                <div class="text-left">
+                    <p>The App gets your GPS location and compass data from your phone.
+                        The App then makes a request to the Google Places database.
+                        Finally, the App converts the relevant information into speech and tells you what the
+                        interesting places in that direction are.
+                    </p>
+                </div>
+                
+                    <a href="https://github.com/noviz-org/speaking-radar" class="btn btn-lg btn-secondary mx-auto">
+                        GitHub <i class="fab fa-github"></i>
+                    </a>
+            
+            <div id="contact" class="section">
+                <h2 class="cover-heading text-center">Contact</h2>
+                <div style="margin-top: 5vh">
+                    <p>
+                        <h6 class="">Daniel Stalder</h6>
+                        <p>Student BsC Computational Science and Engineering</br>
+                        <a href="mailto:dstalder@student.ethz.ch">dstalder@student.ethz.ch</a>
+                        </p>
+                    </p>
+                    <p>
+                        <h6 class="">Lukas Bühler</h6>
+                        <p>Student BsC Computational Science and Engineering</br>
+                        <a href="mailto:contact@lukasbuehler.ch">contact@lukasbuehler.ch</a>
+                        </p>
+                    </p>
+                    <p>
+                        <h6 class="">Lukas Reitemeier</h6>
+                        <p>Student BsC Mechanical Engineering</br>
+                        <a href="mailto:lukas@reitemeier.ch">lukas@reitemeier.ch</a>
+                        </p>
+                    </p>
+                </div>
+            </div>
+            <!--
+            <div id="about" class="section">
+                <h2 class="cover-heading">About us</h2>
+                Test
+            </div>
+            -->
         </main>
 
         <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>©NOVIZ 2019 - And this will be our footer.</p>
+            <div class="inner text-center">
+                <p>©NOVIZ 2019</p>
             </div>
         </footer>
     </div>
+
 
     <script src="bundle.js"></script>
 
@@ -55,8 +122,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXufa0b4Q"
         crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="/bundle.js"></script></body>
